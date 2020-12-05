@@ -1,0 +1,22 @@
+{
+    "name": "muhsin/lmvc",
+    "description": "Little MVC Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhsin Shokirov",
+            "email": "muxsin.shokirov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LMVC\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+      "ext-mysqli": "*",
+      "ext-json": "*"
+    }
+}
